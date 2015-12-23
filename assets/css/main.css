@@ -2712,7 +2712,7 @@
 			/*background-attachment: fixed, fixed;*/
 			background-image: url("../../images/portrait-05.jpg");
 			/*background-image: url("images/overlay1.png"), url("../../images/header.jpg");*/
-			background-size: 100% cover;
+			background-size: 100% auto, cover;
 		}
 
 			.main.style2 a {
