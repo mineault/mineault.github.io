@@ -17,7 +17,9 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+	body {
+		position: relative;
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2802,13 +2804,23 @@
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
-		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-attachment: fixed, fixed, fixed;
+		background-image: url("images/bridge.jpg"), url("images/overlay4.svg");
+		background-position: left center, center center;
+		background-size: auto, cover, cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+	}
+	
+	.bg-opacity {
+		position: absolute;
+		top: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: #000;
+		opacity: 0.4;
 	}
 
 		#header a {
