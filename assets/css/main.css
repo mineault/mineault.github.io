@@ -3299,6 +3299,7 @@
 .margin-left-30 {
 	margin-left:0;
 }
+
 		/* List */
 
 			ul.major-icons li {
@@ -3352,8 +3353,13 @@
 .main.style2 {
 	background-size: auto 100%, cover;
 }
+
+	.main.style2 {
+		min-height: 600px;
+	}
+
 		.main.style2.cover-horiz {
-			background-size: 100% auto, cover !important;
+			background-size: auto 100% , cover !important;
 		}
 	
 		/* Basic */
