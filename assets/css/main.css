@@ -3347,6 +3347,10 @@
 /* Small */
 
 	@media screen and (max-width: 736px) {
+		
+	body {
+		font-size: 150%;
+	}
 	.img-logo {
 		width: 100%;
 	}
