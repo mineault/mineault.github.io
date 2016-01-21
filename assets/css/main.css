@@ -3558,11 +3558,4 @@
 
 	}
 	
-	@viewport {
-	  
-	  max-width: 800px;
 	
-	  zoom: 0.75;
-	  min-zoom: 0.5;
-	  max-zoom: 0.9;
-	}
