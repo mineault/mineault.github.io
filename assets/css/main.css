@@ -3348,16 +3348,17 @@
 
 	@media screen and (max-width: 736px) {
 	
-	body { font-size:200% !important; }
+	body p, body ul { font-size:170% !important; line-height: 1.5em; }
 	.img-logo { width: 100%; }
 	#header { padding: 4em .8em !important; }
 	
 	.img-logo {
 		width: 100%;
+		margin-top: 50px;
 	}
-.main.style2 {
-	background-size: auto 100%, cover;
-}
+	.main.style2 {
+		background-size: auto 100%, cover;
+	}
 
 	.main.style2 {
 		min-height: 600px;
