@@ -3348,6 +3348,10 @@
 
 	@media screen and (max-width: 736px) {
 	
+	body { font-size:200% !important; }
+	.img-logo { width: 100%; }
+	#header { padding: 4em .8em !important; }
+	
 	.img-logo {
 		width: 100%;
 	}
