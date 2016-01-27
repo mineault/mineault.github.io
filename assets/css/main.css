@@ -3356,6 +3356,8 @@
 		width: 100%;
 		margin-top: 50px;
 	}
+	#footer .icons { font-size: 110% !important; }
+	#header .icons { font-size: 140% !important; }
 	.copyright { font-size: 100% !important; }
 	
 	.main.style2 {
